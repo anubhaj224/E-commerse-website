@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img{
+    border-radius: 50%;
+      }
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background: rgb(86, 87, 87);
+	}
+
+header {
+  background-color: coral;
+  color:white;
+  padding: 0px;
+  height:auto;
+	}
+h2{
+  background: gray;
+}
+
+
+         
+
+bold:hover{
+  background-color: rgb(33, 194, 43);
+}
+
+nav ul {
+  font-style: Times New Roman;
+  font-weight: bold;
+ font-size:30px;
+ color: rgb(75, 67, 90);
+ text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(15, 15, 15) ;
+  padding: 10px;
+	}
+ 
+
+nav ul li {
+  margin: 0 10px;
+	}
+
+nav ul li a {
+  text-decoration: none;
+  color: #e9e2e2;
+	}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+	}
+
+#hero-section {
+  background-color: #f4f4f6;
+	}
+
+#about-section {
+  background-color: rgb(21, 20, 20);
+  background: rgb(249, 244, 244);
+	}
+
+#courses-section {
+  background-color: #f4f4f4;
+	}
+
+.course-list {
+  display: flex;
+  justify-content: space-between;
+	}
+
+.course {
+  width: 30%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+	}
+
+
+
+
+#admissions-section {
+  background-color: #fff;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0c0c0c;
+  color: #f7f0f0;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+bottom{
+  background: #0c0c0c;
+  text:white;
+}
+
+p {
+  background-image: url('yell.jpg');
+}
+  #picture{
+             float:right;}
+ /* Navbar container */
+ .navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  font-size: 30px;
+  font-style: Times New Roman;
+  padding: 10px;
+  justify-content: center;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  justify-content: center;
+
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content  */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+
+
+  /**** News, Event, Notice Board CSS Starts ****/  
+.event {
+  width: 31%;
+  margin-right: 1%;
+  float: left;
+}
+.event div {
+  padding:10px;
+  background-color: #121213;
+}
+.event ul li {
+  margin-bottom: 20px;
+  width: 100%;
+  float: left;
+}
+/**** News, Event, Notice Board CSS Ends ****/
+
+
+
+/********** Testimonial CSS Starts **********/  
+.testimonial {
+  width: 300px;
+  float: left;
+  margin-right:10px;
+  background: #ddd;
+}
+.testimonial-text {
+  background: #f0f3fa;
+  padding: 20px;
+  line-height: 35px;
+  border-radius: 10px;
+}
+.testimonial-detail {
+  float:left;
+  margin-top:10px;
+}
+.testimonial-img {
+  float:left;
+}
+.testimonial-img img {
+  border-radius:50%;
+}
+.testimonial-name {
+  margin-left:10px;
+  float:left;
+}
+.testimonial-name h5 {
+  font-size:18px;
+  margin-top:8px;
+}
+/********** Testimonial CSS Ends **********/
